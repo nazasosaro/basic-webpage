@@ -1,0 +1,150 @@
+body {
+  background-color: #f4f7f7;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+h2 {
+  background-color: #79a8a9;
+  color: #fff;
+  font-family: verdana;
+  text-align: center;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+li {
+  margin: 0 15px;
+  text-align: center;
+}
+hr {
+  color: #1f4e5f;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+}
+.navigationBar {
+  display: flex;
+  position: fixed;
+  background-color: #1f4e5f;
+  width: 100%;
+}
+.navigationTitles {
+  color: #fff;
+  display: flex;
+  font-family: Verdana;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.visit-url {
+  color: #fff;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+.visit-url:hover {
+  color: #79a8a9;
+}
+.contact-button {
+  background-color: #1f4e5f;
+  color: #fff;
+  border: none;
+  font-family: verdana;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+.contact-button:hover {
+  color: #79a8a9;
+}
+
+.portada-img {
+  display: flex;
+  padding: 95px 0 0;
+  width: 100%;
+}
+
+.format {
+  display: block;
+  position: static;
+  margin: 15px auto;
+  padding: 0;
+}
+
+.formatIntro {
+  display: flex;
+  font-family: Verdana;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 30px 0 30px;
+  padding: 0;
+}
+.titleIntro {
+  padding: 25px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.textIntro {
+  color: #1f4e5f;
+  background-color: #f4f7f7;
+  margin: 0 auto;
+  padding: 20px 50px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.titleFacts {
+  margin: 25px 30px 0 30px;
+  padding: 20px 50px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.content {
+  color: #1f4e5f;
+  background-color: #aacfd0;
+  font-family: verdana;
+  margin: 0 30px 15px 30px;
+  padding: 30px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.facts {
+  margin: 0 25px;
+  line-height: 21px;
+}
+
+.officialPage-button {
+  display: block;
+  margin: 25px auto;
+  padding: 20px 30px;
+  background-color: #1f4e5f;
+  font-size: 20px;
+  font-family: verdana;
+  font-weight: bold;
+  border: 1px solid #1f4e5f;
+  border-radius: 40px;
+  transition: all 200ms ease-in-out;
+}
+.officialPage-button:hover {
+  background-color: rgb(31, 78, 95, 0.8);
+  color: #fff;
+  cursor: pointer;
+}
+.officialPage-url {
+  color: #f4f7f7;
+  text-decoration: none;
+}
+
+.coder {
+  color: #79a8a9;
+  font-family: verdana;
+  text-align: center;
+}

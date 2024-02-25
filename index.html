@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Favorite Monument</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navigationBar">
+        <div class="navigationTitles">
+          <h1>
+            Galileo Galilei Planetarium <br />
+            Buenos Aires - Argentina
+          </h1>
+          <ul>
+            <li>
+              <a
+                href="https://www.google.com/maps/place/Planetario+Galileo+Galilei/@-34.5696763,-58.4116258,15z/data=!4m6!3m5!1s0x95bcb57475fd5245:0x5eefd3cd753143d7!8m2!3d-34.5696763!4d-58.4116258!16s%2Fm%2F04mx57m?entry=ttu"
+                target="_blank"
+                class="visit-url"
+              >
+                Visit the
+                <br />
+                Planetarium
+              </a>
+            </li>
+            <li>
+              <button class="contact-button">
+                Contact the <br />
+                Planetarium
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <img
+        class="portada-img"
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/109/941/original/planetario_noche_1200_1.jpg?1704855221"
+        alt="Photograph of the Galileo Galilei Planetarium in Buenos Aires, Argentina. The iconic white spherical structure stands against the skyline, surrounded by greenery in Tres de Febrero Park. The futuristic design of the planetarium is prominent, and the image captures its unique architectural features. The atmosphere suggests a blend of scientific and recreational activities"
+      />
+
+      <div class="format">
+        <div class="formatIntro">
+          <h2 class="titleIntro">A brief introduction</h2>
+          <span class="textIntro">
+            <p>
+              The Galileo Galilei Planetarium, located in Buenos Aires -
+              Argentina is a renowned space and astronomu center. With its
+              unique architecture an rich history, it stands as a beacon for
+              science enthusiasts and curios minds alike.
+            </p>
+          </span>
+        </div>
+      </div>
+
+      <h2 class="titleFacts">
+        Things that you need to know about this monument
+      </h2>
+      <div class="content">
+        <h3>1 | Iconic Architectural Design</h3>
+        <p class="facts">
+          The Galileo Galilei Planetarium in Buenos Aires, designed by architect
+          Enrique Jan, is an architectural icon that merges astronomy and
+          geometry. Its unique profile, based on the equilateral triangle,
+          symbolizes unity and industrial development. With five floors, the
+          structure stands out for an esplanade featuring fossils and a
+          meteorite, and a circular hall with semi-spherical domes. Reforms
+          since 2011 included technological updates inside and aesthetic
+          improvements in the exterior lighting with LED lamps. This emblem is
+          not only a venue for events but also a testament to technological and
+          aesthetic evolution over time.
+        </p>
+        <h3>2 | Named After the Renowned Scientist</h3>
+        <p class="facts">
+          The planetarium is named in honor of Galileo Galilei, the Italian
+          astronomer, physicist, and mathematician who made significant
+          contributions to the scientific revolution. The choice of the name
+          reflects the institution's focus on astronomy and scientific
+          education.
+        </p>
+        <h3>3 | Dome Projection System:</h3>
+        <p class="facts">
+          Inside the planetarium, visitors are treated to immersive astronomical
+          experiences through its state-of-the-art dome projection system. The
+          advanced technology allows for breathtaking displays of the night sky,
+          taking spectators on a virtual journey through the cosmos.
+        </p>
+        <h3>4 | Educational Outreach and Programs</h3>
+        <p class="facts">
+          Beyond its role as a tourist attraction, the Galileo Galilei
+          Planetarium is actively involved in educational outreach. It hosts
+          workshops, lectures, and educational programs aimed at fostering a
+          deeper understanding of astronomy and science among students and the
+          public.
+        </p>
+        <h3>5 | Stellar Location in Palermo:</h3>
+        <p class="facts">
+          Situated in the Palermo neighborhood within Tres de Febrero Park, the
+          planetarium enjoys a prime location. Visitors not only have the
+          opportunity to explore the wonders of the universe but also to
+          appreciate the surrounding greenery and recreational areas of the
+          park.
+        </p>
+        <h3>6 | Night Sky Shows and Events:</h3>
+        <p class="facts">
+          The planetarium offers a diverse range of shows and events that cater
+          to audiences of all ages. From educational presentations on the
+          wonders of the universe to special celestial events, the Galileo
+          Galilei Planetarium provides an engaging and enriching experience for
+          visitors.
+        </p>
+        <h3>7 | Symbol of Scientific Curiosity</h3>
+        <p class="facts">
+          As a symbol of scientific curiosity and exploration, the Galileo
+          Galilei Planetarium invites visitors to ponder the mysteries of the
+          cosmos. It serves as a reminder of humanity's enduring fascination
+          with the stars and our ongoing quest to understand the vastness of the
+          universe.
+        </p>
+      </div>
+      <button class="officialPage-button">
+        <a
+          href="https://planetario.buenosaires.gob.ar/"
+          target="_blank"
+          class="officialPage-url"
+        >
+          Official Page of the Planetarium
+        </a>
+      </button>
+      <hr />
+      <p class="coder">Coded by Naza Sosa</p>
+    </div>
+    <script>
+      function contact_email() {
+        alert("planetario@buenosaires.gob.ar");
+      }
+      let contactButton = document.querySelector(".contact-button");
+      contactButton.addEventListener("click", contact_email);
+    </script>
+  </body>
+</html>
