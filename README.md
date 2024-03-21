@@ -3,7 +3,7 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
+  - [Preview](#preview)
   - [Links](#links)
 - [My process](#my-process)
   - [Build with](#build-with)
@@ -11,7 +11,7 @@
 ## Overview
 This project is an informative website about the Galileo Galilei Planetarium. 
 
-### Screenshot
+### Preview
 <div>
   <div style='display: flex'; flex-direction: column; justify-content: center; width: 100%; gap: 20px; padding: 25px 0'>
     <img src='./images/galileo-galilei.png'/>
