@@ -1,14 +1,15 @@
 # Galileo Galilei Planetarium
 
-## Tabla de Contenidos
+## Table of contents
 
-- [Descripción general](#descripción-general)
+- [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [Creado con](#creado-con)
+- [My process](#my-process)
+  - [Build with](#build-with)
 
-## Descripción general
-Este proyecto es una página web informativa sobre al Planetario Galileo Galilei. 
+## Overview
+This project is an informative website about the Galileo Galilei Planetarium. 
 
 ### Screenshot
 <div>
@@ -21,8 +22,8 @@ Este proyecto es una página web informativa sobre al Planetario Galileo Galilei
 - Repository URL: [https://github.com/nazasosaro/basic-webpage/tree/main]
 - Galileo Galilei Planetarium URL: [https://galileogalileiplanetarium.netlify.app/]
 
-## Creado con
-### Frontend
+## My process
+### Build with
 - HTML
 - CSS
 - JavaScript
