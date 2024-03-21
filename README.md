@@ -1,4 +1,4 @@
-# Galileo Galilei PLanetarium
+# Galileo Galilei Planetarium
 
 ## Tabla de Contenidos
 
